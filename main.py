@@ -44,4 +44,14 @@ print('Maior: ',maior)
   menor = terceiro
 print('Menor: ',menor)
 
+'''
+5 Utilizando o del, remova todos os elementos da lista criada anteriormente até a lista ficar vazia.
+'''
+listadel = [1, 2, 3, 4, 5, 6]
+print("minha lista com todos os Elementos",listadel)
+while listadel:
+  del listadel[-1]
+
+print("minha lista após del",listadel)
+
 
